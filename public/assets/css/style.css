@@ -1,0 +1,100 @@
+@font-face {
+  font-family: Mulish-Black;
+  src: url(../static/Mulish-Black.ttf);
+}
+
+@font-face {
+  font-family: Mulish-Black-Italic;
+  src: url(../static/Mulish-BlackItalic.ttf);
+}
+
+@font-face {
+  font-family: Mulish-Bold;
+  src: url(../static/Mulish-Bold.ttf);
+}
+
+@font-face {
+  font-family: Mulish-ExtraBold;
+  src: url(../static/Mulish-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: Mulish-Regular;
+  src: url(../static/Mulish-Regular.ttf);
+}
+
+@font-face {
+  font-family: Mulish-Light;
+  src: url(../static/Mulish-Light.ttf);
+}
+
+@font-face {
+  font-family: Mulish-Medium;
+  src: url(../static/Mulish-Medium.ttf);
+}
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url(../static/);
+}
+
+body {
+  font-family: Mulish-Medium, Arial, Helvetica, sans-serif;
+ }
+
+.popins {
+  font-family: Poppins-Regular, Arial, Helvetica, sans-serif;
+}
+
+.mulish-light {
+  font-family: Mulish-Light;
+}
+
+.mulish-medium {
+  font-family: Mulish-Medium, Arial, Helvetica, sans-serif;
+}
+
+.mulish-regular {
+  font-family: Mulish-Regular, Arial, Helvetica, sans-serif;
+}
+
+.mulish-bold {
+  font-family: Mulish-Bold, Arial, Helvetica, sans-serif;
+}
+
+.mulish-black {
+  font-family: Mulish-Black;
+}
+
+.mulish-bold {
+  font-family: Mulish-Bold, Arial, Helvetica, sans-serif;
+}
+
+
+@keyframes bounce {
+
+  0%,
+  100% {
+    transform: translateY(-5%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+
+  50% {
+    transform: none;
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.bounce {
+  animation: bounce 5s infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+.spin {
+  animation: spin 10s linear infinite;
+}
