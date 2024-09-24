@@ -4,10 +4,10 @@ import InProgress from "./InProgress";
 
 const Content = () => {
     return (
-        <section className="w-full h-screen flex flex-col overflow-y-scroll bg-black  opacity-95 p-5">
+        <section className="w-full h-screen flex flex-col overflow-y-scroll bg-black/95 gradient-to-br from-black via-black/80 to-black bo p-10">
 
             {/* Start */}
-            <Start />
+            {/* <Start /> */}
 
             {/* related */}
             <Related />

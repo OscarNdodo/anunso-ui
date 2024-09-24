@@ -44,7 +44,7 @@ const Menu = () => {
 
 
                                     <span className="w-8/12 px-2 py-1.5 text-start text-base text-gray-400 percase font-normal">
-                                        Jornadas
+                                        Cursos
                                     </span>
                                 </a>
                             </li>
