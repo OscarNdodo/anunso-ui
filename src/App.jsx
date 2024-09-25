@@ -11,6 +11,7 @@ import { Link } from "react-router-dom";
 
 function App() {
 
+  const bgImg = "/assets/images/anunso.gif";
 
   return (
     <main className="w-full h-screen bg-transparent flex flex-col bg-red-500">
@@ -22,7 +23,7 @@ function App() {
 
       </header>
       <section className=" flex items-center justify-between">
-        <img src="/assets/images/anunso.gif" className=" w-full h-screen " />
+        <img src={bgImg} className=" w-full h-screen " />
       </section>
       <aside className="top-0 left-0 absolute w-full h-full bg-white/10 flex flex-col items-start justify-end p-10 pt-20">
         <p className="w-4/12 font-ono text-2xl bg-gradient-to-tr from-black/80 px-10 py-5 rounded text-start text-purple-50 uppercasse mulish-normal" >

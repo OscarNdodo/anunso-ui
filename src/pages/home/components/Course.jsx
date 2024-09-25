@@ -15,7 +15,7 @@ const Course = () => {
     }
 
     return (
-        <div className="w-full h-605 flex flex-col justify-end bg-gradient-to-br from-black via-white/30 to-black/50 shadow-xs shadow-white/80 rounded  overflow-hidden ">
+        <div className="w-full h-605 flex flex-col justify-end bg-gradient-to-br from-black via-white/30 to-black/50 shadow shadow-purple-500 rounded  overflow-hidden ">
 
 
             <div className="w-full h-full">
