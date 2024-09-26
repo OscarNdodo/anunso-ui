@@ -3,6 +3,7 @@ import { RiDashboardFill } from "react-icons/ri";
 import { FaSchoolFlag } from "react-icons/fa6";
 import { FaBilibili } from "react-icons/fa6";
 import { IoMdSettings } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 
 
@@ -10,7 +11,7 @@ import { IoMdSettings } from "react-icons/io";
 
 const Menu = () => {
     return (
-        <div className="flex h-screen w-44 border-r border-gray-800 flex-col items-start bg-black opacity-90">
+        <div className="flex h-screen w-44 border-r border-white/20 flex-col items-start bg-black opacity-90">
             <div>
 
 
@@ -22,7 +23,7 @@ const Menu = () => {
 
 
                             <li className="mt-8 px-1 w-full">
-                                <a href="#" className="group w-full hover:opacity-50 duration-300 ease-in-out hover:scale-95 relative flex items-center justify-end  rounded py-1.5 px-4 font-semibold bg-gray-900 text-purple-600">
+                                <Link to="/overview" className="group w-full hover:opacity-50 duration-300 ease-in-out hover:scale-95 relative flex items-center justify-end  rounded py-1.5 px-4 font-semibold bg-gray-900 text-purple-600">
 
                                     <span className="w-4/12 text-2xl">
                                         <RiDashboardFill />
@@ -32,11 +33,11 @@ const Menu = () => {
                                     <span className="w-8/12 px-2 py-1.5 text-start text-base text-gray-400 percase font-normal">
                                         Overview
                                     </span>
-                                </a>
+                                </Link>
                             </li>
 
                             <li className="mt-8 px-1 w-full">
-                                <a href="#" className="group w-full hover:opacity-50 duration-300 ease-in-out hover:scale-95 relative flex items-center justify-start  rounded py-1.5 px-4 text-gray-100 ">
+                                <Link to="/my/journey" className="group w-full hover:opacity-50 duration-300 ease-in-out hover:scale-95 relative flex items-center justify-start  rounded py-1.5 px-4 text-gray-100 ">
 
                                     <span className="w-4/12 text-2xl text-gray-300 hover:text-purple-600">
                                         <PiPathBold />
@@ -46,7 +47,7 @@ const Menu = () => {
                                     <span className="w-8/12 px-2 py-1.5 text-start text-base text-gray-400 percase font-normal">
                                         Cursos
                                     </span>
-                                </a>
+                                </Link>
                             </li>
 
 
