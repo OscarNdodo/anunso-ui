@@ -37,7 +37,7 @@ const Menu = () => {
                             </li>
 
                             <li className="mt-8 px-1 w-full">
-                                <Link to="/my/journey" className="group w-full hover:opacity-50 duration-300 ease-in-out hover:scale-95 relative flex items-center justify-start  rounded py-1.5 px-4 text-gray-100 ">
+                                <Link to="/journey" className="group w-full hover:opacity-50 duration-300 ease-in-out hover:scale-95 relative flex items-center justify-start  rounded py-1.5 px-4 text-gray-100 ">
 
                                     <span className="w-4/12 text-2xl text-gray-300 hover:text-purple-600">
                                         <PiPathBold />
@@ -52,7 +52,7 @@ const Menu = () => {
 
 
                             <li className="mt-8 px-1 w-full">
-                                <a href="#" className="group w-full hover:opacity-50 duration-300 ease-in-out hover:scale-95 relative flex items-center justify-start  rounded py-1.5 px-4 text-gray-100 ">
+                                <Link to="target" className="group w-full hover:opacity-50 duration-300 ease-in-out hover:scale-95 relative flex items-center justify-start  rounded py-1.5 px-4 text-gray-100 ">
 
                                     <span className="w-4/12 text-2xl text-gray-300 hover:text-purple-600">
                                         <MdGolfCourse />
@@ -60,12 +60,12 @@ const Menu = () => {
 
 
                                     <span className="w-8/12 px-2 py-1.5 text-start text-base text-gray-400 percase font-normal">
-                                        Escolas
+                                        Metas
                                     </span>
-                                </a>
+                                </Link>
                             </li>
 
-                            <li className="mt-8 px-1 w-full">
+                            {/* <li className="mt-8 px-1 w-full">
                                 <a href="#" className="group w-full hover:opacity-50 duration-300 ease-in-out hover:scale-95 relative flex items-center justify-start  rounded py-1.5 px-4 text-gray-100 ">
 
                                     <span className="w-4/12 text-2xl text-gray-300 hover:text-purple-600">
@@ -74,23 +74,21 @@ const Menu = () => {
 
 
                                     <span className="w-8/12 px-2 py-1.5 text-start text-base text-gray-400 percase font-normal">
-                                        Escolas
+                                        Cedulas
                                     </span>
                                 </a>
-                            </li>
+                            </li> */}
 
                             <li className="mt-8 px-1 w-full">
-                                <a href="#" className="group w-full hover:opacity-50 duration-300 ease-in-out hover:scale-95 relative flex items-center justify-start  rounded py-1.5 px-4 text-gray-100 ">
+                                <Link to="/docs" className="group w-full hover:opacity-50 duration-300 ease-in-out hover:scale-95 relative flex items-center justify-start  rounded py-1.5 px-4 text-gray-100 ">
 
                                     <span className="w-4/12 text-2xl text-gray-300 hover:text-purple-600">
                                         <FaBilibili />
                                     </span>
 
 
-                                    <span className="w-8/12 px-2 py-1.5 text-center text-base text-gray-400 percase font-normal">
-                                        Docs
-                                    </span>
-                                </a>
+                                    <span className="w-8/12 px-2 text-start py-1.5 text-base text-gray-400 percase font-normal">Docs</span>
+                                </Link>
                             </li>
 
 

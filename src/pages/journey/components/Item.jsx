@@ -50,7 +50,7 @@ function Item({ image, name, progress }) {
                         <GrMoney className="text-xl text-purple-600 mr-1" />
                         <strong className="mulish-black text-white">500</strong><small className="text-sm mt-1">MZN</small>
                     </h4>
-                    <button className="bg-white px-5 py-1 text-base rounded text-black">Increver-se</button>
+                    <button className="bg-white px-5 py-1 text-base mulish-bold rounded text-black">Increver-se</button>
                 </div>
 
             </div>

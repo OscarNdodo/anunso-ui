@@ -28,10 +28,12 @@ function Start() {
 
 
                 <div className="flex w-6/12 items-center justify-between mt-5">
-                    <Link to="/my/journey" className="bg-white text-gray-800 px-8 py-3 rounded text-sm uppercase">Minha jornada</Link>
+                    <Link to="/my/journey" className="bg-white text-gray-800 px-8 py-3 rounded text-sm uppercase">Minhas metas</Link>
                     <a href="#" className="px-8 py-3 rounded text-sm uppercase border border-white text-white">Nova jornada</a>
                 </div>
             </div>
+
+           
 
         </aside>
     );

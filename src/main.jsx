@@ -11,11 +11,15 @@ import SignUp from './pages/signup/index.jsx';
 import OverView from './pages/overview/index.jsx';
 import Journey from './pages/journey/index.jsx';
 import Main from './pages/Main.jsx';
+import Target from './pages/target/index.jsx';
+import Docs from './pages/docs/index.jsx';
+import NotFound from './pages/404/index.jsx';
 
 const routes = createBrowserRouter([
   {
     path: "/",
-    element: <App />
+    element: <App />,
+    errorElement: <NotFound /> 
   },
   {
     path: "/",
@@ -26,8 +30,16 @@ const routes = createBrowserRouter([
         element: <OverView />
       },
       {
-        path: "my/journey",
+        path: "journey",
         element: <Journey />
+      },
+      {
+        path: "target",
+        element: <Target />
+      },
+      {
+        path: "docs",
+        element: <Docs />
       },
     ]
   },
