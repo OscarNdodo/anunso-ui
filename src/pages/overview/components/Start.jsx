@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function Start() {
     return (
-        <aside className="w-full py-10 mb-10 flex items-center justify-between px-10 bg-gradient-to-r from-indigo-700 via-indigo-800 to-purple-700 rounded-lg">
+        <aside className="w-full py-5 mb-5 flex items-center justify-between px-10 bg-gradient-to-r from-indigo-700 via-indigo-800 to-purple-700 rounded-lg">
 
 
             <div className="w-3/12 flex items-end text-9xl text-white">

@@ -1,14 +1,31 @@
 
-import Content from './components/Content'
+import Item from '../journey/components/Item';
 import Start from './components/Start';
 
 function OverView() {
 
 
+  const img = "/assets/images/extra/journey-1.webp";
+  const image = "/assets/images/rocket-3.webp";
+
   return (
     <>
-    <Start />
-    <h2 className='w-full border-b-2 pb-2 border-purple-600 text-2xl text-white/60 mb-3'>Ola <span className="text-white">Oscar</span>, Este e o resumo dapublic/assets/images/extra/rocket-3.webp sua jornada</h2>
+      <Start />
+      <h3 className="mt-6 w-full text-xl text-white/90 uppercase mulish-light border-b-4 border-white/70">O progresso das suas jornadas</h3>
+
+
+      <div className="relative flex w-full flex-col my-10 mt-5 rounded-lg mb-32 shadow-sm">
+        <nav className="w-full grid grid-cols-1 sm:grid-cols-2 2xl:grid-cols-3 gap-10">
+
+
+
+          <Item image={img} name="Curso de informatica basica na optica do utilizador" progress={30} />
+
+          <Item image={image} name="Confeitaria de criacao de bolod massasu" progress={-63} />
+
+
+        </nav>
+      </div>
     </>
   )
 }

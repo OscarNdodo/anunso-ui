@@ -1,6 +1,6 @@
-import { PiPathBold } from "react-icons/pi";
+import { PiPathBold, PiGraduationCapBold } from "react-icons/pi";
 import { RiDashboardFill } from "react-icons/ri";
-import { FaSchoolFlag } from "react-icons/fa6";
+import { MdGolfCourse } from "react-icons/md";
 import { FaBilibili } from "react-icons/fa6";
 import { IoMdSettings } from "react-icons/io";
 import { Link } from "react-router-dom";
@@ -55,7 +55,21 @@ const Menu = () => {
                                 <a href="#" className="group w-full hover:opacity-50 duration-300 ease-in-out hover:scale-95 relative flex items-center justify-start  rounded py-1.5 px-4 text-gray-100 ">
 
                                     <span className="w-4/12 text-2xl text-gray-300 hover:text-purple-600">
-                                        <FaSchoolFlag />
+                                        <MdGolfCourse />
+                                    </span>
+
+
+                                    <span className="w-8/12 px-2 py-1.5 text-start text-base text-gray-400 percase font-normal">
+                                        Escolas
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li className="mt-8 px-1 w-full">
+                                <a href="#" className="group w-full hover:opacity-50 duration-300 ease-in-out hover:scale-95 relative flex items-center justify-start  rounded py-1.5 px-4 text-gray-100 ">
+
+                                    <span className="w-4/12 text-2xl text-gray-300 hover:text-purple-600">
+                                        <PiGraduationCapBold />
                                     </span>
 
 

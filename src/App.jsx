@@ -301,7 +301,7 @@ function App() {
 
 
 
-      <footer className="bg-gradient-to-tr  from-purple-600 via-purple-600 to-indigo-700 w-ful">
+      <footer className=" w-full bg-black/90">
         <div className="bg-gradient-to-br from-black relative  w-full px-4 py-16 sm:px-6 lg:px-8 lg:pt-24">
           <div className="absolute end-4 top-4 sm:end-6 sm:top-6 lg:end-8 lg:top-8">
             <a
