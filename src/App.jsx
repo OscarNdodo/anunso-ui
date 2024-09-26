@@ -6,6 +6,7 @@ import React from "react";
 
 import { BsArrowRight, BsPlayCircleFill } from "react-icons/bs";
 import { RxDoubleArrowDown, } from "react-icons/rx";
+import { Link } from "react-router-dom";
 
 function App() {
 
@@ -271,9 +272,9 @@ function App() {
 
             <div className="w-8/12 h-full relative">
               <video onClick={playVideo} className="w-full rounded " src={video} poster={cover}></video>
-              <button onClick={playVideo} className="absolute top-0 h-full w-full text-white flex items-center justify-center text-6xl">
+              {/* <button onClick={playVideo} className="absolute top-0 h-full w-full text-white flex items-center justify-center text-6xl">
                 <BsPlayCircleFill />
-              </button>
+              </button> */}
             </div>
 
 
@@ -286,12 +287,12 @@ function App() {
                 minima aliquid tempora. Obcaecati, autem.
               </p>
 
-              <a
-                href="#"
+              <Link
+                to="/overview"
                 className="mt-8 inline-block rounded bg-gradient-to-r from-indigo-600 to-purple-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-yellow-400"
               >
                 Get Started Today
-              </a>
+              </Link>
             </div>
           </div>
         </div>
