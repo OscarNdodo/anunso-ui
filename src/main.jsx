@@ -5,7 +5,7 @@ import { createRoot } from 'react-dom/client'
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
 
-import App from './App.jsx'
+import Landing from './pages/landing/index.jsx';
 import SignIn from "./pages/signin";
 import SignUp from './pages/signup/index.jsx';
 import OverView from './pages/overview/index.jsx';
@@ -18,7 +18,7 @@ import NotFound from './pages/404/index.jsx';
 const routes = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: <Landing />,
     errorElement: <NotFound /> 
   },
   {
