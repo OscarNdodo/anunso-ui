@@ -14,6 +14,7 @@ import Main from './pages/Main.jsx';
 import Target from './pages/target/index.jsx';
 import Docs from './pages/docs/index.jsx';
 import NotFound from './pages/404/index.jsx';
+import Profile from './pages/profile/index.jsx';
 
 const routes = createBrowserRouter([
   {
@@ -41,6 +42,10 @@ const routes = createBrowserRouter([
         path: "docs",
         element: <Docs />
       },
+      {
+        path: "profile",
+        element: <Profile />
+      }
     ]
   },
   {

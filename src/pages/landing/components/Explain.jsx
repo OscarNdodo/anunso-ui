@@ -10,15 +10,15 @@ function Explain() {
 
 
 
-    const cover = "/assets/images/anunso.gif";
+    const cover = "/assets/images/cover.gif";
     const video = "/assets/videos/anunso.mp4";
 
-    const [hover, setHover] = useState(true);
+    const [hover, setHover] = useState(false);
 
 
     const playVideo = (event) => {
-        setHover(false);
-        const currentVideo = event.target.previousSibling;
+        // setHover(false);
+        const currentVideo = event.target;
         currentVideo.paused ? currentVideo.play() : currentVideo.pause();
     }
 
@@ -32,14 +32,14 @@ function Explain() {
                 <div className="flex w-full items-center justify-between">
 
 
-                    <div className="w-8/12 h-full relative">
-                        <video className="w-full rounded " src={video} poster={cover}></video>
+                    <div className="w-8/12 h-full relative border border-purple-600 shadow-lg shadow-purple-600 overflow-hidden rounded">
+                        <video onClick={playVideo} className="min-w-full min-h-full rounded" src="/assets/videos/anunso.mp4" buffered poster={cover}></video>
 
                         {
                             hover && (
 
-                                <div onClick={playVideo} className="w-full h-full absolute top-0 left-0 bg-transparent rounded flex items-center justify-center animate-pulse text-white mulish-bold cursor-pointer">
-                                    Clique-me
+                                <div onClick={playVideo} className="w-full h-full absolute top-0 left-0 bg-transparent rounded flex items-center justify-center animate-pulse text-xl text-white mulish-bold cursor-pointer">
+                                    Clique
                                 </div>
 
 

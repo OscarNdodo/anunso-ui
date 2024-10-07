@@ -18,7 +18,7 @@ function Target() {
             <h3 className="mt-10 w-full text-xl text-white/80 uppercase mulish-light border-b-4 border-white/50"><span className="mulish-bold text-white">Certifiacados</span> conquistados</h3>
 
             
-            <div className="w-full grid grid-cols-3 gap-10 border border-white/20 p-10 my-10">
+            <div className="w-full grid grid-cols-3 gap-10 b  my-10">
                 <Certificate />
                 <Certificate />
                 <Certificate />

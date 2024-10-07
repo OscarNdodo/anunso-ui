@@ -15,14 +15,14 @@ function OverView() {
       <h3 className="mt-6 w-full text-xl text-white/90 uppercase mulish-light border-b-4 border-white/70">O progresso das suas <span className='mulish-bold text-white'>jornada</span>s</h3>
 
 
-      <div className="hidden relative flex w-full flex-col my-10 mt-5 rounded-lg mb-32 shadow-sm">
+      <div className="relative flex w-full flex-col my-10 mt-10 rounded-lg mb-32 shadow-sm">
         <nav className="w-full grid grid-cols-1 sm:grid-cols-2 2xl:grid-cols-3 gap-10">
 
 
 
           <Item image={img} name="Curso de informatica basica na optica do utilizador" progress={30} />
 
-          <Item image={image} name="Confeitaria de criacao de bolod massasu" progress={-63} />
+          <Item image={image} name="Confeitaria de criacao de bolod massasu" progress={63} />
 
 
         </nav>
@@ -32,6 +32,8 @@ function OverView() {
 
       {/* If journies empty */}
       <EmptyBox text='Comecar uma jornada' />
+
+
     </>
   )
 }

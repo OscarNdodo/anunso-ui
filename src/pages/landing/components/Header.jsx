@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 
 
@@ -20,7 +21,7 @@ function Header() {
 
             <div className="md:flex md:items-center md:gap-12">
                 <nav aria-label="Global" className="hidden md:block">
-                    <ul className="flex items-center gap-6 text-sm">
+                    <ul className="flex items-center gap-6 text-base">
                         <li>
                             <a className="text-white/90 transition hover:text-white/65" href="#"> Sobre </a>
                         </li>
@@ -60,13 +61,13 @@ function Header() {
                         role="menu"
                     >
                         <div className="p-2">
-                            <a
-                                href="#"
+                            <Link
+                                to="/login"
                                 className="block rounded-lg px-4 py-2 text-sm text-gray-500 hover:bg-gray-50 hover:text-gray-700"
                                 role="menuitem"
                             >
                                 Minha conta
-                            </a>
+                            </Link>
 
                             <a
                                 href="#"

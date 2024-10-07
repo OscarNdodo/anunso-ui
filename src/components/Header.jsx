@@ -44,12 +44,14 @@ const Header = ({ toggle, showMenu }) => {
                 </a></li>
                 <li className="pl-3">
 
+                <Link to="/profile">
                     <img
                         alt="user name"
                         src={img}
-                        className="relative inline-block object-cover object-center w-12 h-12 rounded-full cursor-pointer border border-white/40 "
+                        className="relative inline-block object-cover object-center w-12 h-12 rounded-full cursor-pointer border border-white/40 hover:opacity-80 hover:scale-95 duration-300 ease-in-out"
 
-                    />
+                        />
+                        </Link>
 
 
                 </li>
